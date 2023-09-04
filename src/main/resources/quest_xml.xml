@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<quest init="1">
+	<states>
+		<state label="1" yes="2" no="Fail"/>
+		<state label="2" yes="3" no="Fail"/>
+		<state label="3" yes="Win" no="Fail"/>
+		<state label="Win"/>
+		<state label="Fail"/>
+	</states>
+</quest>
